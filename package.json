@@ -1,0 +1,21 @@
+{
+  "name": "online-blog",
+  "version": "1.0.0",
+  "description": "online blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./assets/src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "dennis mbithi",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  }
+}
